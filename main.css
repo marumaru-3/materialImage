@@ -2,9 +2,19 @@
   #app {
     overflow: hidden;
   }
+
+  header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
   
   .navbar-nav {
     margin-left: 30px;
+  }
+
+  .main {
+    margin-top: 15%;
   }
 
   .animation {
